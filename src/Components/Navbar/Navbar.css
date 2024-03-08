@@ -22,3 +22,8 @@ nav li{
     margin: 5px 20px;
     font-size: 16px;
 }
+
+.dark-nav{
+    background: #0e1b8a;
+    transition: 0.8s;
+}
