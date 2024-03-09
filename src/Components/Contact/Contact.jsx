@@ -47,9 +47,9 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-            <label htmlFor="">You name</label>
+            <label htmlFor="">Full Name</label>
             <input type="text" name='name' placeholder='Enter your name' required/>
-            <label htmlFor="">Phone Number</label>
+            <label htmlFor="">Contact</label>
             <input type="tel" name="phone" placeholder='Enter your mobile number' required/>
             <label htmlFor="">Write your message here</label>
             <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
